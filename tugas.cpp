@@ -58,3 +58,23 @@ public:
     
     friend double keliling(LayangLayang &l);
 };
+
+
+double keliling(LayangLayang &l){
+    return 2 * (l.sisi + l.sisi);
+}
+
+int main(){
+    LayangLayang ObjectLayang;
+    BelahKetupat ObjectBelahKetupat;
+
+    ObjectLayang.inputData();
+    ObjectBelahKetupat.inputData();
+
+    cout << "\n--- Hasil ---" << endl;
+
+    ObjectLayang.output();
+    ObjectBelahKetupat.output();
+
+    return 0;
+}
