@@ -17,3 +17,7 @@ public:
         cout << "Masukkan diagonal 2: "; cin >> d2;
         cout << "Masukkan sisi: "; cin >> sisi;
     }
+
+    double hitungLuas(){
+        return 0.5 * d1 * d2;
+    }
