@@ -8,3 +8,7 @@ class BelahKetupat;
 class LayangLayang{
 private:
     double d1, d2, sisi;
+
+
+public:
+    void inputData(){
