@@ -49,3 +49,8 @@ public:
       double kelilingSendiri(){
         return 4 * sisi;
     }
+
+    void output(){
+        cout << "Luas Belah Ketupat: " << hitungLuas() << endl;
+        cout << "Keliling Belah Ketupat: " << kelilingSendiri() << endl;
+    }
