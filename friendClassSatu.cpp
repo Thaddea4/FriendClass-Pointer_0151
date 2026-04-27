@@ -12,3 +12,12 @@ class orang
  void setNama(string pNama);
  friend class siswa;
 };
+
+class siswa
+{
+private:
+int id;
+
+public:
+void displayAll(orang &a);
+};
