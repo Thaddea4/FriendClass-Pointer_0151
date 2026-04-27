@@ -35,3 +35,4 @@ private:
     double d1, d2, sisi;
 
 public:
+   void inputData(){
