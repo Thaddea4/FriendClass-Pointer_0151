@@ -1,4 +1,6 @@
 #include <iostream>
 uisng namespace std;
 
-class mahasiswa{}
+class mahasiswa{
+    public:
+}
