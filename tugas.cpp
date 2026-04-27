@@ -29,3 +29,9 @@ public:
 
     friend double keliling(LayangLayang &l);
 };
+
+class BelahKetupat {
+private:
+    double d1, d2, sisi;
+
+public:
